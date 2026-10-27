@@ -24,6 +24,6 @@ def url_predict(request):
     else:
         message='Clean URL'
         
-    return render(request,'index.html',{'output':message,'text_color':color})
+    return render(request,'index.html',{'output':message})
 
 	
